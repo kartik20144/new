@@ -58,7 +58,7 @@ body {
 }
 
 .container1 {
-  background: url("https://eco-n-tech.com/wp-content/cache/thumb/ec/890ddcd1c2ce5ec_3806x1034.png") center center / cover no-repeat;
+  background: url("./assets/background.jpg") center center / cover no-repeat;
   z-index: 1;
   height: 480px;
   width: 100%;
