@@ -2,6 +2,7 @@ import React from 'react'
 import dots from "../assets/dots.jpg"
 import s from "../assets/s.jpg"
 import share from "../assets/share.jpg"
+import locator from "../assets/locator.png"
 
 
 const Post4 = () => {
@@ -58,12 +59,12 @@ const Post4 = () => {
         👜 Innovaccer Analytics Private Ltd.
         </li>
         <li className="d-flex align-items-center gap-1">
-          
-         📍 Noida, India
+        <img src={locator} alt="locator" width="13px" height="18px" />   
+         Noida, India
         </li>
       </ul>
       <button
-        className="custom-post-link btn mb-4 fw-semibold"
+        className="custom-post-link btn mb-4 fw-semibold border border-secondary"
         style={{ color: "rgb(2, 184, 117)", width: "100%" }}
       >
         Apply on Timejobs

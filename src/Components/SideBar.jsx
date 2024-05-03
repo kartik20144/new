@@ -4,6 +4,7 @@ import w from "../assets/w.jpg"
 import x from "../assets/x.jpg"
 import y from "../assets/y.jpg"
 import z from "../assets/z.jpg"
+import locator from "../assets/locator.png"
 
 const SideBar = () => {
   return (
@@ -11,7 +12,7 @@ const SideBar = () => {
     <div className="container d-none d-lg-flex flex-column mt-4 ">
       <div className="d-flex justify-content-between">
         <div className="d-flex align-items-center">
-        📍
+        <img src={locator} alt="locator" width="13px" height="18px" className='mx-2'/> 
           <input
             type="text"
             placeholder="Enter Your Location"

@@ -3,6 +3,7 @@ import c from "../assets/c.jpg"
 import dots from "../assets/dots.jpg"
 import r from "../assets/r.jpg"
 import share from "../assets/share.jpg"
+import locator from "../assets/locator.png"
 
 const Post3 = () => {
   return (
@@ -63,12 +64,12 @@ const Post3 = () => {
          📅 Fri, 12 Oct, 2018
         </li>
         <li className="d-flex align-items-center gap-1">
-         
-        📍 Ahmedabad, India
+        <img src={locator} alt="locator" width="13px" height="18px" /> 
+         Ahmedabad, India
         </li>
       </ul>
       <button
-        className="custom-post-link btn mb-4 fw-semibold"
+        className="custom-post-link btn mb-4 fw-semibold border border-secondary"
         style={{ color: "rgb(229, 97, 53)", width: "100%" }}
       >
         Visit WebSite
@@ -96,7 +97,7 @@ const Post3 = () => {
             <span>👁️‍🗨️1.4k views</span>
           </div>
           <button
-            className="btn d-flex align-items-center gap-2"
+            className="btn d-flex align-items-center gap-2 "
             style={{ background: "rgb(237, 238, 240)" }}
           >
             <img
