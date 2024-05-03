@@ -8,9 +8,13 @@ const Posts = () => {
   return (
     <div className="posts-center position-relative">
         <Post1 />
+        <br />
         <Post2 />
+        <br />
         <Post3 />
+        <br />
         <Post4 />
+        <br />
           </div>
   )
 }
