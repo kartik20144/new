@@ -1,3 +1,4 @@
+
 import React from 'react'
 import logo from '../assets/logo.jpg'
 import arrow from '../assets/arrow.jpg';
@@ -5,26 +6,25 @@ import arrow from '../assets/arrow.jpg';
 
 const Header = () => {
   return (
-    <div className="header-container container d-none d-lg-flex align-items-center justify-content-between p-3">
-        <div className="header-img" style={{ zIndex: 1 }}>
+    <div className="header-container container d-lg-flex align-items-center justify-content-between p-3">
+        <div className="header-img m-1" style={{ zIndex: 1 }}>
           <img
             src={logo}
-            width="162.57px"
+            width="150.57px"
             height="24px"
             alt="Logo"
           />
         </div>
-        <div className="header-form">
+        <div className="header-form flex-grow-1">
           <form
             className="d-flex"
-            style={{ width: "360px", borderRadius: "21px" }}
+            style={{ borderRadius: "21px" }}
           >
             <button className="custom-search" type="submit">
-             
               ⌕
             </button>
             <input
-              className="form-control custom-input-search"
+              className="form-control custom-input-search flex-grow-1"
               type="search"
               placeholder="Search for your favorite groups in ATG"
               aria-label="Search"
