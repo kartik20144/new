@@ -231,7 +231,7 @@ const HomeScreen = () => {
 
       <div className="container3">
         <div
-          className="mx-auto d-flex gap-5 justify-content-center"
+          className="mx-auto d-flex  justify-content-center"
           style={{ maxWidth: "1040px" }}
         >
           {/* <Posts /> */}
